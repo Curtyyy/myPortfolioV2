@@ -6,7 +6,7 @@ const Projects = () => {
   const [toggle, setToggle] = useState(0);
 
   return (
-    <div className={`${styles.flexStart} ${styles.marginYxl} w-full gap-6`}>
+    <div className={`${styles.flexStart} ${styles.marginYxl} w-full gap-6m px-4`}>
       {projects.map((project, index) => (
         <div
           key={project.id}
@@ -33,7 +33,7 @@ const Projects = () => {
             className={`${styles.flexStart} flex-col w-full h-auto overflow-hidden `}
           >
             <div
-              className={`w-56 h-30 ${
+              className={`w-52 h-30 ${
                 index === project.length - 1 ? "mb-0" : "mb-1"
               }`}
               onClick={() => setToggle(index)}

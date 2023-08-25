@@ -45,7 +45,7 @@ const Hero = () => {
           {navLinks.map((links, index) => (
             <div
               key={links.id}
-              className={`hover:border-b border-y-blue-800 transition-all ease-in-out duration-300`}
+              className={`hover:border-b border-y-blue-800 w-fit m-auto transition-all ease-in-out duration-300`}
             >
               <a href={`#${links.id}`}>↓{links.title}</a>
             </div>

@@ -4,7 +4,7 @@ import styles from "../style";
 
 const Skills = () => {
   return (
-    <div className={`${styles.flexCenter} flex-col`}>
+    <div className={`${styles.flexCenter} flex-col px-4 mx-2`}>
       <h1 className="text-center font-bold mb-3 sm:text-xl sm:mb-6">Skills</h1>
 
       <div className="text-center grid grid-cols-3 grid-flow-row w-full">

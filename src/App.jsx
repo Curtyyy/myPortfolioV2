@@ -32,7 +32,7 @@ const App = () => {
       {toggle ? <AnimationBg /> : <AnimationBg2 />}
 
       <div className={`${styles.flexCenter} ${styles.paddingXxl} relative`}>
-        <div className={`${styles.flexCenter} ${styles.boxWidth} -my-4 z-10`}>
+        <div className={`${styles.flexCenter} ${styles.boxWidth} -my-2 z-10`}>
           <Hero />
         </div>
       </div>

@@ -13,8 +13,8 @@ const styles = {
 
     paddingX: "px-3",
     paddingXlg: "px-6",
-    paddingXxl: "px-10",
-    paddingX2xl: "px-20",
+    paddingXxl: "sm:px-10",
+    paddingX2xl: "sm:px-20",
     
     paddingY: "py-3",
     paddingYlg: "py-6",
@@ -23,8 +23,8 @@ const styles = {
 
     marginX: "mx-3",
     marginXlg: "mx-6",
-    marginXxl: "mx-10",
-    marginX2xl: "mx-20",
+    marginXxl: "sm:mx-10",
+    marginX2xl: "sm:mx-20",
     
     marginY: "my-3",
     marginYlg: "my-6",
