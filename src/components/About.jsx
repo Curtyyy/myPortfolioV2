@@ -6,7 +6,7 @@ const About = () => {
     <div className={`text-center text-lg md:text-left sm:text-xl mb-6`}>
       <h1 className="text-center font-bold  mb-3 sm:text-xl sm:mb-6">About</h1>
       <p>
-        Hi, I'm Curt Russel Berdos, I'm a front-end web developer with a
+        Hi, I'm Curt Russel Berdos, a junior fullstack developer with a
         background in computer science.
       </p>
       <br />
